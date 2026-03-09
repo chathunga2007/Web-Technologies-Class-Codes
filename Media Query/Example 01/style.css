@@ -1,0 +1,9 @@
+body {
+    background: lightgreen;
+}
+
+@media (max-width: 768px) {
+    body {
+        background: aqua;
+    }
+}

@@ -1,0 +1,23 @@
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 30px ;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
