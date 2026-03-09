@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+}
+
+.box {    
+    flex: 1;
+    padding: 20px;
+    background: lightcoral;
+    margin: 5px;
+}
+
+@media (max-width: 900px) {
+    .box {
+        background:rgb(255, 0, 170);
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+    .box {
+        background: rgb(238, 255, 0);
+    }
+}
