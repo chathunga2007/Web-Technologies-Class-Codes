@@ -7,8 +7,12 @@ function textChange() {
 }
 
 function calculateSum() {
-    var num1 = 10;
-    var num2 = 5;
-    var sum = num1 + num2;
+    let num1 = 10;
+    let num2 = 5;
+    let sum = num1 + num2;
     alert("The sum is: " + sum);
+}
+
+function changeBGColor() {
+    document.body.style.backgroundColor = "aqua";
 }
