@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Named Function
+        function add(a,b) {
+            return a + b;
+        }
+
+        console.log(add(5, 2));
+
+        //Stored inside a variable
+        const add = function(a, b) {
+            return a + b;
+        }
+
+        console.log(add(5, 2));
+
+        //Global Scope
+        let name = "John";
+
+        function greet() {
+            console.log("Hello " + name);
+        }
+        greet();
+        console.log(name);
+
+        //Function Scope
+        function text() {
+            let age = 30;
+            console.log(age);
+        }
+        text();
+        // console.log(age); // Error
+    </script>
+</body>
+</html>
