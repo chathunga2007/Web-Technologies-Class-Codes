@@ -14,10 +14,10 @@
         console.log(add(5, 2));
 
         //Stored inside a variable
-        const add = function(a, b) {
+        const add2 = function(a, b) {
             return a + b;
         }
-        console.log(add(5, 2));
+        console.log(add2(5, 2));
 
         //Global Scope
         let name = "John";
@@ -48,6 +48,23 @@
             console.log(n);
         }
         console.log(n); //work
+
+        //Hoisting
+        //1.Hoisting with var
+        console.log(x); // undefined
+        var x = 5;
+
+        //2.Hoisting with let and const
+        //console.log(y); // ReferenceError
+        let y = 5;
+        console.log(y); // 5
+
+        //Function Hoisting
+        greet(); // Hello
+        function greet() {
+            console.log("Hello");
+        }
+
     </script>
 </body>
 </html>
