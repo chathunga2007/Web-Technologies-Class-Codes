@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let attempts = ["123", "admin", "admin123"]; // Simulated inputs
+
+        for (let i = 0; i < 5; i++) {
+            let input = attempts[i];
+
+            if (input === "") {
+                continue; 
+            }
+
+            if (input === "admin123") {
+                console.log("Login Success");
+                break; 
+            } else {
+                console.log("Try Again");
+            }
+        }
+
+    </script>
+</body>
+</html>
