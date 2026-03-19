@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Card Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Student Profile</h1>
+
+        <img id="studentImage" src="assest/Screenshot 2026-01-06 203316.png" alt="Student Image">
+
+        <h2 id="studentName">John Doe</h2>
+        <p id="studentCourse">Course: Web Development</p>
+        <p id="studentStatus">Status: Active</p>
+        <p id="todayDate">Date: Not shown yet</p>
+
+        <div class="buttons">
+            <button onclick="changeName()">Change Name</button>
+            <button onclick="changeStatus()">Change Status</button>
+            <button onclick="showDate()">Show Date</button>
+            <button onclick="changeTheme()">Change Theme</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

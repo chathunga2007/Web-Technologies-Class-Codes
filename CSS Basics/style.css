@@ -1,0 +1,58 @@
+h1 {
+    color: blue;
+}
+
+/* class to the apply css */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+/* id to the apply css */
+#about-us {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid;
+    background-color: rgb(235, 159, 44);
+}
+
+/* fully page apply css */
+*{
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(253, 253, 234);
+}
+
+/* select attribute to apply css */
+input[type="text"] {
+    border: 1px solid blue;
+}
+/* pseudo class use in css */
+a:hover{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+/* pseudo elements use in css */
+/* p::first-letter{
+    color: rgb(255, 0, 183);
+    font-size: 25px;
+} */
+
+/* child combinator (>) */
+div > p {
+    font-weight: bold;
+}
+
+/* descendant combinator (Space) */
+div p {
+    color: rgb(135, 0, 225);
+}
+
+/* adjacent sibling combinator (+) */
+div + p {
+    color: red;
+}

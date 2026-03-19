@@ -1,0 +1,20 @@
+.box {
+    width: 100px;
+    height: 100px;
+    animation: box 5s infinite alternate;
+}
+
+@keyframes box {
+    0% {
+        transform: translateX(0);
+        background: red;
+        
+    }
+    50% {
+        background: yellow;
+    }
+    100% {
+        transform: translateX(600px) rotate(180deg);
+        background: green;
+    }
+}

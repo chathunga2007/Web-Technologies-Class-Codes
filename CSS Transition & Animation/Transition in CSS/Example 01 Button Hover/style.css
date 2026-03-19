@@ -1,0 +1,14 @@
+.btn {
+    background: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none ;
+    transition: all 3s ease 2s;
+    /* transition: all 3s ease-in; */
+    /* transition: all 3s ease-out; */
+}
+
+.btn:hover {
+    background: greenyellow;
+    transform: scale(1.1);
+}

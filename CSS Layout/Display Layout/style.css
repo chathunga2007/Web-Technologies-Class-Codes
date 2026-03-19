@@ -1,0 +1,56 @@
+body {
+    font-family:'Comic Sans MS';
+    background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+h1 {
+    font-style: oblique;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Display Block */
+.box {
+    display: block;
+    background: rgb(3, 242, 255);
+    margin: 15px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.block div {
+    display: block;
+    width: 200px;
+    height: 80px;
+}
+
+/* Display Inline */
+.inline span {
+    display: inline;
+    background: rgb(251, 255, 132);
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Display Inline-Block */
+.inline-block div {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    background: rgb(118, 252, 118);
+    margin: 10px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid black;
+}

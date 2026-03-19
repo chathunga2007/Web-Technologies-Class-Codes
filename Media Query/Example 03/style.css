@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+}
+
+.box {    
+    flex: 1;
+    padding: 20px;
+    background: lightcoral;
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}

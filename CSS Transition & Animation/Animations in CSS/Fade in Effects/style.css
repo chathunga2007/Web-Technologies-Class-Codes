@@ -1,0 +1,12 @@
+h1 {
+    animation: fadeIn 2s infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

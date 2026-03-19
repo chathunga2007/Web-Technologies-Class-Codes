@@ -1,0 +1,24 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+.section {
+    height: 800px;
+    background: rgb(78, 66, 66);
+    padding: 20px;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 0;
+    background: orange;
+    padding: 15px;
+}
+
+.next-section {
+    background: lightblue;
+}

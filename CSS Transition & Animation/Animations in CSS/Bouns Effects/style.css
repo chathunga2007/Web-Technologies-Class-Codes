@@ -1,0 +1,23 @@
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 330px;
+    background: red;
+    animation: circleAnimate 2.5s infinite alternate;
+}
+
+@keyframes circleAnimate {
+    0% {
+        transform: translateY(0);
+        background-color: aqua;
+    }
+    50% {
+        transform: translateY(-330px);
+        background: orange;
+    }
+    100% {
+        transform: translateY(0);
+        background: plum;
+    }
+}

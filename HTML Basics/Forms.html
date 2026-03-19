@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Forms</h2>
+    <form>
+        <label for="frame">First Name: </label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="frame">Last Name: </label><br>
+        <input type="text" name="fname" id="fname"><br><br>
+
+        <input type="button" value="Submit" style="width: 80px; height: 30px;"><br><br>
+
+        <label for="passed">Pass: </label>
+        <input type="checkbox" name="passed" id="passed"><br><br>
+
+        <label for="head">Select Color: </label>
+        <input type="color" id="head" name="head" value="#eb0909"><br><br>
+
+        <label for="date">Select Date: </label>
+        <input type="date" name="date" id="date" value="" min="2000-01-01" max="2050-01-01"><br><br>
+
+        <label for="datetime">Select Date & Time: </label>
+        <input type="datetime-local" name="datetime-local" id="datetime-local" value=""><br><br>
+
+        <label for="email">Enter Email: </label>
+        <input type="email" name="email" id="email"  style="width: 250px; height: 15px;"><br><br>
+
+        <label for="file">Chose File: </label>
+        <input type="file" name="avatar" id="avatar" accept="image/png, image/jpeg"><br><br>    
+
+        <label for="hidden">Hidden: </label>
+        <input type="hidden" name="hidden" id="hidden" value="Hello"><br><br>
+
+        <label for="month">Select Month: </label>
+        <input type="month" name="month" id="month" ><br><br>
+
+        <label for="number">Select Number: </label>
+        <input type="number" name="num" id="num" value="18" min="1" max="100"><br><br>
+
+        <label for="password">Enter Password: </label>
+        <input type="password" name="password" id="password" minlength="8" maxlength="12" required><br><br>
+
+        <label for="radio">Cricket: </label>
+        <input type="radio" name="radio_button" id="radio" value="Cricket" checked>
+        <label for="radio">Chess: </label>
+        <input type="radio" name="radio_button" id="radio" value="Chess" ><br><br>
+
+        <label for="range">Choose Range: </label>
+        <input type="range" name="range_picker" id="range" min="0" max="100"><br><br>
+
+        <label for="search">Search: </label>
+        <input type="search" name="search" id="search"><br><br>
+
+        <label for="submit">Submit: </label>
+        <input type="submit" name="submit-button" id="submit" value="Send Request"><br><br>
+
+        <label for="telephone">Enter Telephone Number: </label>
+        <input type="tel" name="telephone-input" id="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+
+        <label for="time">Select Time: </label>
+        <input type="time" name="time-picker" id="time" min="01:00" max="12:00"><br><br>
+
+        <label for="url">Enter URL: </label>
+        <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*"><br><br>
+
+        <label for="week">Select Week: </label>
+        <input type="week" name="week-picker" id="week" min="2018-W18" max="2026-W26"><br><br>
+
+        <textarea name="msg" id="msg" rows="5" cols="30" placeholder="Your Message" spellcheck=""></textarea><br><br>
+
+        <select name="countries" id="countries">
+            <option value="">Select your country</option>
+            <option value="UK">UK</option>
+            <option value="USA">USA</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+        </select><br><br>
+
+        <label for="button">Add: </label>
+        <button type="button">Add to cart</button><br><br>
+
+        <fieldset style="width: 250px; height:80px;">
+            <legend>Choose your favourite monster: </legend>
+
+            <input type="radio" name="kraken" id="monster" value="K">
+            <label for="kraken">Kraken</label><br>
+
+            <input type="radio" name="sasquatch" id="monster" value="S">
+            <label for="sasquatch">Sasquatch</label><br>
+
+            <input type="radio" name="mothman" id="monster" value="M">
+            <label for="mothman">Mothman</label>
+        </fieldset><br>
+
+        <label for="ice-cream-choise">Choose a flavor: </label><br>
+        <input list="ice-cream-flavor" name="ice-cream-choise" id="ice-cream-choise">
+        <datalist id="ice-cream-flavor">
+            <option value="Chocolate">
+            <option value="Coconut">
+            <option value="Mint">
+            <option value="Strawberry">
+            <option value="Vanilla">
+        </datalist><br><br>
+
+        <label for="food-select">Choose a food: </label><br>
+        <select id="food-select" >
+            <optgroup label="Indian">
+                <option>Biriyani</option>
+                <option>Naan</option>
+                <option>Tandoori Chicken</option>
+            </optgroup>
+            <optgroup label="Japanese">
+                <option>Sushi</option>
+                <option>Ramen</option>
+            </optgroup>
+        </select><br><br>
+        <label for="reset">Reset: </label>
+        <input type="reset" name="reset-button" id="reset" value="Reset"><br><br>
+    </form>
+
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" name="b" id="b" value="50" /> +
+        <input type="number" name="a" id="a" value="10" /> =
+        <output name="result" for="a b">60</output>
+    </form>
+</body>
+</html>

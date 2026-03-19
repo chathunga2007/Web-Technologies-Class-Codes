@@ -1,0 +1,6 @@
+.box {
+    position: static;
+    background-color: blue;
+    padding: 20px;
+    width: 100px;
+}

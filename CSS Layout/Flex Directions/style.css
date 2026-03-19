@@ -1,0 +1,42 @@
+body {
+    font-family: 'Comic Sans MS';
+}
+
+h2 {
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.container {
+    display: flex;
+    background: lightgray;
+    margin-bottom: 10px;
+    height: 400px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background: rgb(26, 244, 255);
+    text-align: center;
+    margin: 10px;
+    line-height: 80px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}

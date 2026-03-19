@@ -1,0 +1,36 @@
+body {
+    font-family: 'Comic Sans MS';
+}
+
+h2 {
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(255, 17, 0);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.box {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.span {
+    grid-column: span 2;
+}
+
+.blue {
+    background: blue;
+}
+
+.orange {
+    background: rgb(255, 200, 0);
+} 

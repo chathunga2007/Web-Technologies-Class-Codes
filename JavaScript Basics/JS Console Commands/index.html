@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console Commands</title>
+</head>
+<body>
+    <script>
+        // Log Commands
+        console.log("Hello, World!");
+        console.log(10+5);
+        let name = "Chathunga Bimsara";
+        console.log("My name is " + name);
+
+        // Error Command
+        console.error("This is an error message!");
+        let age = -5;
+        if (age < 0) {
+            console.error("Age cannot be negative!");
+        }
+
+        // Warning Command
+        console.warn("This is a warning message!");
+        let password = "12345";
+        if (password.length < 6) {
+            console.warn("Password is too weak!");
+        }
+
+        // Info Command
+        console.info("This is an informational message.");
+        let user = {
+            name: "Alice",
+            age: 30,
+            email: "alice@example.com"
+        };
+        console.info("User information:", user);
+
+        //Debug Command
+        console.debug("This is a debug message.");
+
+        // Table Command
+        let users = [
+            { name: "Alice", age: 30 },
+            { name: "Bob", age: 25 },
+            { name: "Charlie", age: 35 }
+        ];
+        console.table(users);
+    </script>
+</body>
+</html>
