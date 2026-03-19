@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let studentMarks = [80, 65, 40, 0, 90]; 
+
+        for (let i = 0; i < studentMarks.length; i++) {
+
+            let marks = studentMarks[i];
+
+            if(marks == 0) {
+                console.log("Invalid marks");
+                break;
+            }
+
+            if (marks >= 75) {
+                console.log("Grade A");
+            } else if (marks >= 50) {
+                console.log("Grade B");
+            } else {
+                console.log("Fail");
+            }
+        }
+    </script>
+</body>
+</html>
