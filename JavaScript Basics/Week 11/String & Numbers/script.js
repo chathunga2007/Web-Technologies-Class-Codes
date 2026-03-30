@@ -17,7 +17,6 @@ console.log(txt.slice(1, 8)); // Hello W
 // Template Literals
 let name = "Chathunga";
 let age = 18;
-
 console.log(`My name is ${name} and I am ${age} years old.`);
 
 //Number Methods
@@ -31,5 +30,19 @@ console.log(parseFloat("10.5")); //10.5
 // 04. Number()
 console.log(Number("10")); //10
 
-
+// Math Object
+// 01. Math.round()
+console.log(Math.round(4.7)); //5
+// 02. Math.ceil()
+console.log(Math.ceil(4.2)); //5
+// 03. Math.floor()
+console.log(Math.floor(4.7)); //4
+// 04. Math.random()
+console.log(Math.random()); // Random number between 0 and 1
+// 05. Math.max()
+console.log(Math.max(1, 5, 3)); //5
+// 06. Math.min()
+console.log(Math.min(1, 5, 3)); //1
+// 07. Math.pow()
+console.log(Math.pow(2, 3)); //8
 
