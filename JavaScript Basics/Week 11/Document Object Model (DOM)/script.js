@@ -42,5 +42,3 @@ document.body.appendChild(p);
 function dele() {
     document.body.removeChild(document.getElementById("removeMe"));
 }
-    
-    
