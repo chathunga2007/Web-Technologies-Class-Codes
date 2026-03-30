@@ -15,9 +15,9 @@ console.log(txt.includes("Hello")); // true
 console.log(txt.slice(1, 8)); // Hello W
 
 // Template Literals
-let name = "Chathunga";
+let name1 = "Chathunga";
 let age = 18;
-console.log(`My name is ${name} and I am ${age} years old.`);
+console.log(`My name is ${name1} and I am ${age} years old.`);
 
 //Number Methods
 let num = 10.573;
@@ -45,4 +45,3 @@ console.log(Math.max(1, 5, 3)); //5
 console.log(Math.min(1, 5, 3)); //1
 // 07. Math.pow()
 console.log(Math.pow(2, 3)); //8
-
