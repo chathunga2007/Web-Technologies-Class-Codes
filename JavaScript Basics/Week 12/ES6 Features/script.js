@@ -31,3 +31,6 @@ console.log(sum(1, 2, 3, 4, 5)); //Output: 15
 function greet(name = "Guest") { //Default value if no argument is provided
     console.log(`Hello, ${name}!`);
 }
+greet(); //Output: Hello, Guest!
+greet("Alice"); //Output: Hello, Alice!
+
