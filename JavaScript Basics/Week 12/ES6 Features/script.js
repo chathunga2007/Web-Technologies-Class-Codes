@@ -34,3 +34,18 @@ function greet(name = "Guest") { //Default value if no argument is provided
 greet(); //Output: Hello, Guest!
 greet("Alice"); //Output: Hello, Alice!
 
+//Task 01
+function multiply(a, b=1 ) {
+    return a * b;
+}
+console.log(multiply(5)); //Output: 5 (5 * 1)
+console.log(multiply(5, 2)); //Output: 10 (5 * 2)
+
+//Task 02
+function totalPrice(price, tax = 0.1) {
+    return price + (price * tax);
+}
+console.log(totalPrice(100)); //Output: 110 (100 + 10)
+console.log(totalPrice(100, 0.2)); //Output: 120 (100 + 20)
+
+
