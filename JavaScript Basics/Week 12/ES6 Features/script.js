@@ -48,4 +48,3 @@ function totalPrice(price, tax = 0.1) {
 console.log(totalPrice(100)); //Output: 110 (100 + 10)
 console.log(totalPrice(100, 0.2)); //Output: 120 (100 + 20)
 
-
