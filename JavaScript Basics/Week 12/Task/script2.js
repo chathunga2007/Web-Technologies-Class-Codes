@@ -15,3 +15,8 @@ import multiply, { number } from "./script.js";
 
 console.log(number); // Output: 42
 console.log(multiply(2, 3)); // Output: 6
+
+//Task 04
+import {age as userAge} from "./script.js";
+
+console.log(userAge); // Output: 30

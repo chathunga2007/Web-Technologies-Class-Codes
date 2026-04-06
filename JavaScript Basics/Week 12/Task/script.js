@@ -12,3 +12,6 @@ export const number = 42;
 export default function multiply(a, b) {
   return a * b;
 }
+
+//04
+export const age = 30;
